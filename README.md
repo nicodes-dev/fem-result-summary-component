@@ -28,8 +28,6 @@ Users should be able to:
 
 ![](./screenshot-desktop.png)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
 - Solution URL: [repo](https://github.com/nicodes-dev/fem-result-summary-component)
@@ -48,6 +46,7 @@ Users should be able to:
 ### Useful resources
 
 - [transitioning gradients](https://keithjgrant.com/posts/2017/07/transitioning-gradients/) - Since there isn't a direct way of adding transitions on gradient backgrounds, this taught me a way of adding transition on my hover state.
+- [tailwindcss tutorial](https://www.youtube.com/watch?v=lCxcTsOHrjo&list=PL0Zuz27SZ-6M8znNpim8dRiICRrP5HPft&index=6&ab_channel=DaveGray) - This tutorial is perfect for those who want to learn how to use tailwindcss and deploy your site on render.
 
 ## Author
 
