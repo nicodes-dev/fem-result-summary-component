@@ -3,6 +3,20 @@ module.exports = {
   content: ['./build/*.html'],
   theme: {
     extend: {
+      fontSize: {
+        base: [
+          '1rem',
+          {
+            lineHeight: '1.3125rem',
+          },
+        ],
+        md: [
+          '1.125rem',
+          {
+            lineHeight: '1.4375rem',
+          },
+        ],
+      },
       colors: {
         'accent-red': 'hsl(0, 100%, 67%)',
         'gradient-red': 'hsl(4, 89%, 65%)',
@@ -16,6 +30,21 @@ module.exports = {
         'neutral-200': 'hsl(221, 100%, 96%)',
         'neutral-500': 'hsl(241, 100%, 89%)',
         'neutral-700': 'hsl(224, 30%, 27%)',
+      },
+    },
+    screens: {
+      sm: '500px',
+      // => @media (min-width: 640px) { ... }
+      md: '700px',
+      // => @media (min-width: 768px) { ... }
+      lg: '1024px',
+      // => @media (min-width: 1024px) { ... }
+      xl: '1280px',
+      // => @media (min-width: 1280px) { ... }
+      '2xl': '1440px',
+      // => @media (min-width: 1440px) { ... }
+      'min-screen': {
+        raw: '(min-width: 700px) and (min-height: 630px)',
       },
     },
   },
