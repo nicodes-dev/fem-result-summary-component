@@ -15,8 +15,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -42,19 +40,14 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
 - [Tailwindcss](https://tailwindcss.com/) - CSS framework
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
 - [transitioning gradients](https://keithjgrant.com/posts/2017/07/transitioning-gradients/) - Since there isn't a direct way of adding transitions on gradient backgrounds, this taught me a way of adding transition on my hover state.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
