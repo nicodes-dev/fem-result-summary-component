@@ -133,36 +133,6 @@ body {
 
 button {
   position: relative;
-  background: linear-gradient(
-    to right,
-    theme('colors.neutral-700'),
-    theme('colors.neutral-700')
-  );
-  z-index: 1;
-}
-
-button:before {
-  position: absolute;
-  content: '';
-  top: 0;
-  right: 0;
-  left: 0;
-  background-image: linear-gradient(
-    to bottom,
-    theme('colors.primary-blue-200'),
-    theme('colors.primary-blue-500')
-  );
-  z-index: -1;
-  transition: opacity 0.5s linear;
-  opacity: 0;
-}
-
-button:hover:before {
-  opacity: 1;
-}
-
-button {
-  position: relative;
   background-image: linear-gradient(
     to right,
     theme('colors.neutral-700'),
