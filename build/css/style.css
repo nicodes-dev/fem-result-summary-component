@@ -1058,10 +1058,6 @@ button:hover::before {
     border-radius: 2rem;
   }
 
-  .md\:bg-neutral-200\/40 {
-    background-color: hsl(222 100% 96% / 0.4);
-  }
-
   .md\:bg-neutral-200 {
     --tw-bg-opacity: 1;
     background-color: hsl(222 100% 96% / var(--tw-bg-opacity));
@@ -1075,6 +1071,10 @@ button:hover::before {
   .md\:px-\[1\.875rem\] {
     padding-left: 1.875rem;
     padding-right: 1.875rem;
+  }
+
+  .md\:pb-\[3\.4375rem\] {
+    padding-bottom: 3.4375rem;
   }
 }
 
