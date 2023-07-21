@@ -796,6 +796,10 @@ video {
   color: hsl(241 100% 89% / var(--tw-text-opacity));
 }
 
+.text-neutral-500\/50 {
+  color: hsl(241 100% 89% / 0.5);
+}
+
 .text-neutral-700 {
   --tw-text-opacity: 1;
   color: hsl(224 30% 27% / var(--tw-text-opacity));
@@ -939,36 +943,6 @@ body {
 
 button {
   position: relative;
-  background: linear-gradient(
-    to right,
-    hsl(224, 30%, 27%),
-    hsl(224, 30%, 27%)
-  );
-  z-index: 1;
-}
-
-button:before {
-  position: absolute;
-  content: '';
-  top: 0;
-  right: 0;
-  left: 0;
-  background-image: linear-gradient(
-    to bottom,
-    hsl(252, 100%, 67%),
-    hsl(234, 85%, 45%)
-  );
-  z-index: -1;
-  transition: opacity 0.5s linear;
-  opacity: 0;
-}
-
-button:hover:before {
-  opacity: 1;
-}
-
-button {
-  position: relative;
   background-image: linear-gradient(
     to right,
     hsl(224, 30%, 27%),
@@ -1063,11 +1037,6 @@ button:hover::before {
     background-color: hsl(222 100% 96% / var(--tw-bg-opacity));
   }
 
-  .md\:bg-neutral-100 {
-    --tw-bg-opacity: 1;
-    background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
-  }
-
   .md\:px-\[1\.875rem\] {
     padding-left: 1.875rem;
     padding-right: 1.875rem;
@@ -1099,8 +1068,8 @@ button:hover::before {
     margin-bottom: .875rem;
   }
 
-  .lg\:mt-\[calc\(41px-28px\)\] {
-    margin-top: calc(41px - 28px);
+  .lg\:mt-\[\.8125rem\] {
+    margin-top: .8125rem;
   }
 
   .lg\:gap-y-\[\.25rem\] {
@@ -1143,10 +1112,6 @@ button:hover::before {
     padding-top: 2.375rem;
   }
 
-  .lg\:text-\[1\.125rem\] {
-    font-size: 1.125rem;
-  }
-
   .lg\:text-\[1\.5rem\] {
     font-size: 1.5rem;
   }
@@ -1161,14 +1126,6 @@ button:hover::before {
 
   .lg\:text-md {
     font-size: 1.125rem;
-    line-height: 1.4375rem;
-  }
-
-  .lg\:font-bold {
-    font-weight: 700;
-  }
-
-  .lg\:leading-\[1\.4375rem\] {
     line-height: 1.4375rem;
   }
 
