@@ -592,10 +592,6 @@ video {
   display: none;
 }
 
-.h-\[3\.5rem\] {
-  height: 3.5rem;
-}
-
 .h-\[8\.75rem\] {
   height: 8.75rem;
 }
@@ -640,10 +636,6 @@ video {
   justify-content: center;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
 .gap-x-\[\.5rem\] {
   -moz-column-gap: .5rem;
        column-gap: .5rem;
@@ -662,20 +654,12 @@ video {
   row-gap: 1.5rem;
 }
 
-.rounded-\[0\.75rem\] {
-  border-radius: 0.75rem;
-}
-
-.rounded-\[128px\] {
-  border-radius: 128px;
+.rounded-\[8rem\] {
+  border-radius: 8rem;
 }
 
 .rounded-full {
   border-radius: 9999px;
-}
-
-.rounded-\[8rem\] {
-  border-radius: 8rem;
 }
 
 .rounded-b-\[2rem\] {
@@ -777,10 +761,6 @@ video {
 
 .font-medium {
   font-weight: 500;
-}
-
-.leading-\[1\.3125rem\] {
-  line-height: 1.3125rem;
 }
 
 .leading-\[1\.4375rem\] {
@@ -1037,6 +1017,14 @@ button:hover::before {
     margin-right: 0px;
   }
 
+  .md\:mb-\[1\.75rem\] {
+    margin-bottom: 1.75rem;
+  }
+
+  .md\:mt-\[2\.1875rem\] {
+    margin-top: 2.1875rem;
+  }
+
   .md\:h-\[200px\] {
     height: 200px;
   }
@@ -1076,7 +1064,28 @@ button:hover::before {
 
   .md\:bg-neutral-200 {
     --tw-bg-opacity: 1;
-    background-color: hsl(221 100% 96% / var(--tw-bg-opacity));
+    background-color: hsl(222 100% 96% / var(--tw-bg-opacity));
+  }
+
+  .md\:bg-neutral-100 {
+    --tw-bg-opacity: 1;
+    background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+  }
+
+  .md\:bg-neutral-200\/50 {
+    background-color: hsl(222 100% 96% / 0.5);
+  }
+
+  .md\:bg-neutral-200\/40 {
+    background-color: hsl(222 100% 96% / 0.4);
+  }
+
+  .md\:bg-neutral-200\/30 {
+    background-color: hsl(222 100% 96% / 0.3);
+  }
+
+  .md\:bg-neutral-200\/20 {
+    background-color: hsl(222 100% 96% / 0.2);
   }
 
   .md\:px-\[1\.875rem\] {
@@ -1106,28 +1115,12 @@ button:hover::before {
     margin-bottom: .875rem;
   }
 
-  .lg\:mt-\[2\.25rem\] {
-    margin-top: 2.25rem;
-  }
-
   .lg\:mt-\[calc\(41px-28px\)\] {
     margin-top: calc(41px - 28px);
   }
 
-  .lg\:max-w-\[15rem\] {
-    max-width: 15rem;
-  }
-
-  .lg\:items-center {
-    align-items: center;
-  }
-
   .lg\:gap-y-\[\.25rem\] {
     row-gap: .25rem;
-  }
-
-  .lg\:gap-y-\[28px\] {
-    row-gap: 28px;
   }
 
   .lg\:gap-y-\[1\.75rem\] {

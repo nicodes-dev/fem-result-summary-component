@@ -27,7 +27,7 @@ module.exports = {
         'primary-blue-500': 'hsl(234, 85%, 45%)',
         'gradient-0': 'hsla(241, 72%, 46%, 0)',
         'neutral-100': 'hsl(0, 0%, 100%)',
-        'neutral-200': 'hsl(221, 100%, 96%)',
+        'neutral-200': 'hsl(222, 100%, 96%)',
         'neutral-500': 'hsl(241, 100%, 89%)',
         'neutral-700': 'hsl(224, 30%, 27%)',
       },
